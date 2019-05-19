@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Academy.Listeners" />
+	</listeners>
+	<test name="Validating Selenium courses">
+		<classes>
+			<class name="Academy.HomePageSearch">
+
+			</class>
+		</classes>
+	</test>
+	<test name="Validating Login Scenarios">
+		<classes>
+			<class name="Academy.LoginScenarios" >
+			<methods>
+					<exclude name="NavigateToHomePage" />
+				</methods>
+			</class>
+
+
+		</classes>
+	</test>
+
+	<test name="Validating Landing Page Title">
+		<classes>
+			<class name="Academy.ValidateTitle">
+				<methods>
+					<exclude name="NavigateToHomePage" />
+				</methods>
+			</class>
+
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

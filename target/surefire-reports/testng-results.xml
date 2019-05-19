@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="521499" started-at="2019-05-18T12:15:55Z" finished-at="2019-05-18T12:24:37Z">
+    <groups>
+    </groups>
+    <test name="Validating Selenium courses" duration-ms="156862" started-at="2019-05-18T12:15:55Z" finished-at="2019-05-18T12:18:32Z">
+      <class name="Academy.HomePageSearch">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePageSearch@2d554825]" name="initialize" is-config="true" duration-ms="20702" started-at="2019-05-18T12:15:55Z" finished-at="2019-05-18T12:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="seleniumCourseScreen()[pri:0, instance:Academy.HomePageSearch@2d554825]" name="seleniumCourseScreen" duration-ms="40222" started-at="2019-05-18T12:16:16Z" finished-at="2019-05-18T12:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumCourseScreen -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePageSearch@2d554825]" name="initialize" is-config="true" duration-ms="55311" started-at="2019-05-18T12:16:56Z" finished-at="2019-05-18T12:17:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="SeleniiumSearch()[pri:1, instance:Academy.HomePageSearch@2d554825]" name="SeleniiumSearch" duration-ms="38756" started-at="2019-05-18T12:17:52Z" finished-at="2019-05-18T12:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleniiumSearch -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePageSearch@2d554825]" name="teardown" is-config="true" duration-ms="1804" started-at="2019-05-18T12:18:30Z" finished-at="2019-05-18T12:18:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePageSearch -->
+    </test> <!-- Validating Selenium courses -->
+    <test name="Validating Login Scenarios" duration-ms="283508" started-at="2019-05-18T12:18:33Z" finished-at="2019-05-18T12:23:17Z">
+      <class name="Academy.LoginScenarios">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.LoginScenarios@12843fce]" name="initialize" is-config="true" duration-ms="47875" started-at="2019-05-18T12:18:33Z" finished-at="2019-05-18T12:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="NavigateToHomePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.LoginScenarios@12843fce]" name="NavigateToHomePage" duration-ms="8536" started-at="2019-05-18T12:19:21Z" data-provider="parameterize" finished-at="2019-05-18T12:19:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malikzia964@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User should be able to login Successful.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHomePage -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.LoginScenarios@12843fce]" name="initialize" is-config="true" duration-ms="48894" started-at="2019-05-18T12:19:30Z" finished-at="2019-05-18T12:20:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="NavigateToHomePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.LoginScenarios@12843fce]" name="NavigateToHomePage" duration-ms="42188" started-at="2019-05-18T12:20:19Z" data-provider="parameterize" finished-at="2019-05-18T12:21:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malikzia964@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Passwdddord-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User should not be able to login Successful.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHomePage -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.LoginScenarios@12843fce]" name="initialize" is-config="true" duration-ms="104096" started-at="2019-05-18T12:21:01Z" finished-at="2019-05-18T12:22:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="NavigateToHomePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.LoginScenarios@12843fce]" name="NavigateToHomePage" duration-ms="30449" started-at="2019-05-18T12:22:45Z" data-provider="parameterize" finished-at="2019-05-18T12:23:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gghjhgj@gmail.co.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User should not be able to login Successful.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHomePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.LoginScenarios@12843fce]" name="teardown" is-config="true" duration-ms="1369" started-at="2019-05-18T12:23:16Z" finished-at="2019-05-18T12:23:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.LoginScenarios -->
+    </test> <!-- Validating Login Scenarios -->
+    <test name="Validating Landing Page Title" duration-ms="79519" started-at="2019-05-18T12:23:17Z" finished-at="2019-05-18T12:24:37Z">
+      <class name="Academy.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidateTitle@7ca48474]" name="initialize" is-config="true" duration-ms="29689" started-at="2019-05-18T12:23:17Z" finished-at="2019-05-18T12:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="NavigateToHomePage()[pri:0, instance:Academy.ValidateTitle@7ca48474]" name="NavigateToHomePage" duration-ms="47865" started-at="2019-05-18T12:23:47Z" finished-at="2019-05-18T12:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHomePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.ValidateTitle@7ca48474]" name="teardown" is-config="true" duration-ms="1964" started-at="2019-05-18T12:24:35Z" finished-at="2019-05-18T12:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidateTitle -->
+    </test> <!-- Validating Landing Page Title -->
+  </suite> <!-- Suite -->
+</testng-results>

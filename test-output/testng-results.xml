@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="104703" started-at="2019-05-19T08:38:02Z" finished-at="2019-05-19T08:39:47Z">
+    <groups>
+    </groups>
+    <test name="Validating Selenium courses" duration-ms="92751" started-at="2019-05-19T08:38:02Z" finished-at="2019-05-19T08:39:35Z">
+      <class name="Academy.HomePageSearch">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePageSearch@26653222]" name="initialize" is-config="true" duration-ms="12038" started-at="2019-05-19T08:38:02Z" finished-at="2019-05-19T08:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="seleniumCourseScreen()[pri:0, instance:Academy.HomePageSearch@26653222]" name="seleniumCourseScreen" duration-ms="34651" started-at="2019-05-19T08:38:14Z" finished-at="2019-05-19T08:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumCourseScreen -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePageSearch@26653222]" name="teardown" is-config="true" duration-ms="1247" started-at="2019-05-19T08:38:51Z" finished-at="2019-05-19T08:38:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePageSearch@26653222]" name="initialize" is-config="true" duration-ms="12172" started-at="2019-05-19T08:38:52Z" finished-at="2019-05-19T08:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="SeleniiumSearch()[pri:1, instance:Academy.HomePageSearch@26653222]" name="SeleniiumSearch" duration-ms="28840" started-at="2019-05-19T08:39:04Z" finished-at="2019-05-19T08:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleniiumSearch -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePageSearch@26653222]" name="teardown" is-config="true" duration-ms="1290" started-at="2019-05-19T08:39:34Z" finished-at="2019-05-19T08:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePageSearch -->
+    </test> <!-- Validating Selenium courses -->
+    <test name="Validating Login Scenarios" duration-ms="3" started-at="2019-05-19T08:39:35Z" finished-at="2019-05-19T08:39:35Z">
+    </test> <!-- Validating Login Scenarios -->
+    <test name="Validating Landing Page Title" duration-ms="11496" started-at="2019-05-19T08:39:35Z" finished-at="2019-05-19T08:39:47Z">
+      <class name="Academy.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidateTitle@3c0ecd4b]" name="initialize" is-config="true" duration-ms="11488" started-at="2019-05-19T08:39:35Z" finished-at="2019-05-19T08:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+      </class> <!-- Academy.ValidateTitle -->
+    </test> <!-- Validating Landing Page Title -->
+  </suite> <!-- Suite -->
+</testng-results>
